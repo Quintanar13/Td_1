@@ -7,11 +7,11 @@ const Alumno = () => {
     return (
       <>
             <h1 className = 'titulo' style={{color: 'black'}}>Hola!</h1>
-            <Title alumno = "Alfredo Quintanar" matricula = "187905" color = "blue"/>
-            <h2 className= "listAl" style = {{color: 'green'}}>Lista de alumnos: </h2>
+            <Title alumno = "Alfredo Quintanar" matricula = "187905" color = '#084d6e'/>
+            <h2 className= "listAl" style = {{color: 'black'}}>Lista de alumnos: </h2>
             <ul>
               {alumnos.map((nombre, i) => {
-                return <Title alumno = {nombre} matricula = {i} color = "darkgreen"/>
+                return <Title alumno = {nombre} matricula = {i} color = '#007476' />
               })}
             </ul>
       </>
